@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Noto+Sans+Elbasan&family=Playwrite+GB+S:ital,wght@1,100&family=Protest+Guerrilla&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+body {
+    background: #fff;
+    color: black;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+
+}
+
+
+.avatar {
+    border-radius: 25px;
+    width: 220px;
+    box-shadow: 4px 4px 16px;
+    margin: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+.container {
+    max-width: 750px;
+    margin: auto;
+
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info p {
+    color: gray;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.info-text {
+    margin-left: 6px;
+    margin-top: 30px;
+
+}
+
+.info h4 {
+    margin-bottom: 20px;
+}
+
+
+.bg-color1 {
+    background: darksalmon;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.bg-color2 {
+    background: aquamarine;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.bg-color3 {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.a1 {
+    color: black;
+}
+
+
+.a1:hover {
+    text-decoration: underline;
+}
+
+
+.a1:active {
+    color: red;
+}
+
+
+.a1:visited {
+    color: rgb(76, 0, 255);
+}
+
+
+.list {
+    padding: 0px 50px;
+
+}
+
+
+.list li {
+    padding-bottom: 10px;
+
+}
+
+
+.h2-YoutubeCurs {
+    padding: 0px 20px;
+}
+
+
+.Hobby {
+    padding: 0px 20px;
+}
+
+
+.tayble {
+    width: 100%;
+    padding: 10px;
+    background: cadetblue;
+
+    border: 10px solid red;
+    border-bottom-style: groove;
+    border-bottom-color: black;
+    border-bottom-width: 20px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+    border-top-style: inset;
+    border-top-color: green;
+    border-top-width: 20px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+
+    border-left-style: inset;
+    border-left-color: blueviolet;
+    border-left-width: 20px;
+
+
+    border-right-style: groove;
+    border-right-color: red;
+    border-right-width: 20px;
+}
+
+
+.tayble td {
+    padding-bottom: 20px;
+    padding: 10px 20px;
+
+
+}
+
+.tayble td:nth-child(1) {
+    background: aqua;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.tayble td:nth-child(2) {
+    background: burlywood;
+    color: red;
+    font-size: 18px;
+
+}
+
+
+.tayble td:nth-child(3) {
+    background: blueviolet;
+    color: aliceblue;
+    font-size: 18px;
+
+}
+
+
+
+
+
+.img {
+    border-radius: 15%;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #868686;
+}
+
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.row>.form-group {
+    width: 50%;
+}
+
+
+.row>.form-group:first-child {
+    margin-right: 20px;
+}
+
+
+
+.btn {
+    background: #000;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
